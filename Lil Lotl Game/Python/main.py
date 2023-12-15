@@ -6,7 +6,7 @@ from pygame.locals import *
 
 def main():
     pygame.init()
-    pygame.display.set_caption("Lil Lotk Game")
+    pygame.display.set_caption("Lil Lotl Game")
     size = pygame.display.Info()
     # dev mode
     screen = pygame.display.set_mode((640, 480), 0 ,32)
