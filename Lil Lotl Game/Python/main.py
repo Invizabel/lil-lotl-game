@@ -9,9 +9,9 @@ def main():
     pygame.display.set_caption("Lil Lotl Game")
     size = pygame.display.Info()
     # dev mode
-    screen = pygame.display.set_mode((640, 480), 0 ,32)
+    #screen = pygame.display.set_mode((640, 480), 0 ,32)
     # production
-    #screen = pygame.display.set_mode((640, 480), pygame.FULLSCREEN)
+    screen = pygame.display.set_mode((640, 480), pygame.FULLSCREEN)
     display = pygame.Surface((300, 300))
 
     # load images
